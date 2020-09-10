@@ -1,3 +1,7 @@
 domain: dashuai.io
 repo: chenlishuai/k8s-crd-demo
+resources:
+- group: batch
+  kind: CronJob
+  version: v1
 version: "2"
